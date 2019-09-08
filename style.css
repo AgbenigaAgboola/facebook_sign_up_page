@@ -1,0 +1,208 @@
+body{
+   /* margin:0; 
+   padding: 0; */
+   font-family: Helvetica, Arial, sans-serif;;
+   display:flex;
+   flex-direction: column;
+}
+header{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3b5998;
+    padding: 10px 90px;
+    color: white;
+}
+header p:nth-child(3){
+    color:rgb(206, 201, 201);
+}
+header .login{
+    display: flex;
+    flex-direction: row;
+    
+}
+header input, p{
+    margin-left:15px;
+    line-height: 0.5px;
+}
+header input{
+    height: 20px;
+}
+header h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    padding-top:20px;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+header .login_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+.login_button input[type="submit"]{
+    border: 2px solid ;
+    color:white;
+    height: 30px;
+    background-color: #4267b2;
+    border-color: #29487d; 
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size:14px;
+    font-weight: 600;
+}
+
+main{
+    padding: 10px 90px;
+    display: flex;
+    background: linear-gradient(180deg, white, #b8c1d4)
+}
+aside{
+    color:#3b5998;
+    padding-top: 20px;
+    width:60%;
+    margin-right: 10px;
+    font-size: 15px;
+}
+section{
+    width: 40%;
+}
+section h1{
+    font-size: 40px;
+    line-height: 0;
+}
+section p:nth-child(2){
+    font-size: 22px;
+    margin-left:0;
+    line-height: 0;
+    margin-bottom: 30px;
+}
+section input[type="text"]:nth-child(1){
+    height: 35px;
+    border-radius:5px;
+    width: 46%;
+    margin: 5px 0;
+    font-size: 20px;
+    padding-left:5px;
+    border: 1px solid rgb(180, 195, 236);
+}
+section input[type="text"]:nth-child(2){
+    height: 35px;
+    border-radius:5px;
+    width: 47%;
+    margin: 5px 0;
+    margin-left:8px;
+    font-size: 20px;
+    padding-left:5px;
+    border: 1px solid rgb(180, 195, 236);
+}
+section input[type="text"], section input[type="password"]{
+    height: 35px;
+    border-radius:5px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 20px;
+    padding-left:5px;
+    border: 1px solid rgb(180, 195, 236);
+}
+section input[type="radio"]{
+    
+    height: 20px;
+    width: 15px;
+    margin: ;
+    font-size: 20px;
+    
+}
+select{
+    height: 33px;
+    width: 70px;
+    border: 1px solid rgb(180, 195, 236);
+    margin-right:-4px;
+}
+section form p{
+    font-size:20px;
+    margin-left: 0;
+    font-weight: 6;
+    color: rgb(85, 82, 82);
+}
+section span{
+    font-size: 22px;
+    margin-right: 20px;
+}
+section form input[type="submit"]{
+    border: 2px solid ;
+    color:white;
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(#67ae55, #578843);
+    border-color: #67a84e; 
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size:19px;
+    font-weight: 600;
+}
+.policy{
+    display:    ;
+footer{
+    padding: 30px 90px;
+    font-size: 13px;
+}
+footer a{
+    padding-right: 10px;
+    margin-left: 0;
+    color: #29487d ;
+}
+    /* width: 320px;
+    height: 420px;
+    background:;
+        color:rgb(0, 0, 0);
+    top:50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px; */
+
+
+
+/*
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(180deg, white, green,green);
+    color: #fff ;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background:green;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover{
+    color: white;
+*/
+
